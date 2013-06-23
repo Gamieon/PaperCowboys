@@ -1,4 +1,4 @@
-//#define PLAYER_TAKES_DAMAGE
+#define PLAYER_TAKES_DAMAGE
 
 using UnityEngine;
 using System.Collections;
