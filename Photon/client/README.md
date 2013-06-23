@@ -28,3 +28,12 @@ GETTING SET UP
 10. Go into GameDirector.cs and change the game version to something that makes sense to you (like "0.1 alpha")
 11. Set the build version to Web
 12. Build and test!
+
+
+POINTS OF INTEREST
+==================
+* The actual hosting server is in the Photon Cloud. In every game there is a "master client" that is in charge of enemies and environmental scene objects. The master client seems to always be the newest player that is still in the game.
+
+* There are three communication groups:
+0 - Scene objects and state synchronization
+1 - Level loading
