@@ -41,5 +41,6 @@ POINTS OF INTEREST
 CURRENTLY KNOWN ISSUES
 ========================
 * This project has not been vigorously tested, nor has it been reviewed by any professional Unity developers with lots of networking experience
+* When joining a game, any players with existing accessories (hats, bandanas) don't have their colors synced.
 * When changing levels, some "lingering RPCs" get carried to the next level. This doesn't seem to inherently harm anything, but it's a clear indictation that something isn't happening correctly.
 * Avoid referencing player properties in channel 0 as much as you can. I have not found a way to guarantee that when a client joins, they get everyone's player properties before the level gets loaded and synchronized.
