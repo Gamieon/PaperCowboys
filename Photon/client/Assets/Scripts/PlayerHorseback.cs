@@ -131,10 +131,10 @@ public sealed class PlayerHorseback : PlayerCharacter,
 	void UpdatePlayerMovements()
 	{		
 		// Moving up
-		walkUpActive = Input.GetAxisRaw("Vertical") < 0;
+		walkUpActive = Input.GetAxisRaw("Vertical") > 0;
 	
 		// Moving down
-		walkDownActive = Input.GetAxisRaw("Vertical") > 0;
+		walkDownActive = Input.GetAxisRaw("Vertical") < 0;
 		
 		// Moving to the left
 		walkLeftActive = Input.GetAxisRaw("Horizontal") < 0;
