@@ -602,7 +602,7 @@ public class NetworkDirector : MonoBehaviour
 			{
 				if (p != player && p != Network.player)
 				{
-					networkView.RPC("RPCSetPlayerCustomString", player, key, data);
+					networkView.RPC("RPCSetPlayerCustomString", p, key, data);
 				}
 			}				
 		}
@@ -633,7 +633,7 @@ public class NetworkDirector : MonoBehaviour
 			{
 				if (p != player && p != Network.player)
 				{
-					networkView.RPC("RPCSetPlayerCustomInt", player, key, data);
+					networkView.RPC("RPCSetPlayerCustomInt", p, key, data);
 				}
 			}				
 		}
@@ -664,7 +664,7 @@ public class NetworkDirector : MonoBehaviour
 			{
 				if (p != player && p != Network.player)
 				{
-					networkView.RPC("RPCSetPlayerCustomFloat", player, key, data);
+					networkView.RPC("RPCSetPlayerCustomFloat", p, key, data);
 				}
 			}
 		}
