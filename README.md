@@ -4,6 +4,8 @@ Each project uses a "semi-authoritative" model: Inputs are processed locally, pl
 
 There are no controls to prevent cheating.
 
+None of these samples include dedicated server sample projects.
+
 The available libraries are:
 
  * Photon - With the "Photon Cloud" solution, players don't host games. All host management and data exchange is done through 3rd party servers. Players can create games and join them at will. Every game has a "master client" that is responsible for managing the level and non-player entities; usually the master client is the player who joined the game most recently.
